@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/repo-name/static/css/main.91d096f5.css",
-    "main.js": "/repo-name/static/js/main.18141f20.js",
-    "static/js/453.20359781.chunk.js": "/repo-name/static/js/453.20359781.chunk.js",
-    "index.html": "/repo-name/index.html",
-    "main.91d096f5.css.map": "/repo-name/static/css/main.91d096f5.css.map",
-    "main.18141f20.js.map": "/repo-name/static/js/main.18141f20.js.map",
-    "453.20359781.chunk.js.map": "/repo-name/static/js/453.20359781.chunk.js.map"
+    "main.css": "/Khadija-Al-Maqbali/static/css/main.91d096f5.css",
+    "main.js": "/Khadija-Al-Maqbali/static/js/main.7eb01eb9.js",
+    "static/js/453.20359781.chunk.js": "/Khadija-Al-Maqbali/static/js/453.20359781.chunk.js",
+    "index.html": "/Khadija-Al-Maqbali/index.html",
+    "main.91d096f5.css.map": "/Khadija-Al-Maqbali/static/css/main.91d096f5.css.map",
+    "main.7eb01eb9.js.map": "/Khadija-Al-Maqbali/static/js/main.7eb01eb9.js.map",
+    "453.20359781.chunk.js.map": "/Khadija-Al-Maqbali/static/js/453.20359781.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.91d096f5.css",
-    "static/js/main.18141f20.js"
+    "static/js/main.7eb01eb9.js"
   ]
 }
