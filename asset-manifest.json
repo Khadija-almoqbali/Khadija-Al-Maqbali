@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Khadija-Al-Maqbali/static/css/main.91d096f5.css",
-    "main.js": "/Khadija-Al-Maqbali/static/js/main.7eb01eb9.js",
+    "main.js": "/Khadija-Al-Maqbali/static/js/main.6b668c9f.js",
     "static/js/453.20359781.chunk.js": "/Khadija-Al-Maqbali/static/js/453.20359781.chunk.js",
     "index.html": "/Khadija-Al-Maqbali/index.html",
     "main.91d096f5.css.map": "/Khadija-Al-Maqbali/static/css/main.91d096f5.css.map",
-    "main.7eb01eb9.js.map": "/Khadija-Al-Maqbali/static/js/main.7eb01eb9.js.map",
+    "main.6b668c9f.js.map": "/Khadija-Al-Maqbali/static/js/main.6b668c9f.js.map",
     "453.20359781.chunk.js.map": "/Khadija-Al-Maqbali/static/js/453.20359781.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.91d096f5.css",
-    "static/js/main.7eb01eb9.js"
+    "static/js/main.6b668c9f.js"
   ]
 }
