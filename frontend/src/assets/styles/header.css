@@ -1,0 +1,197 @@
+.navbar {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: min(1100px, 92%);
+  height: 64px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 18px;
+
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(22px);
+
+  border: 1px solid rgba(205, 183, 255, 0.35);
+  border-radius: 999px;
+
+  box-shadow: 0 10px 40px rgba(167, 139, 250, 0.12);
+
+  z-index: 9999;
+}
+
+/* SCROLL EFFECT */
+.navbar.scrolled {
+  top: 12px;
+  box-shadow: 0 15px 50px rgba(167, 139, 250, 0.18);
+}
+
+/* LOGO */
+.logo {
+  font-family: "Cormorant Garamond";
+  font-size: 20px;
+  font-weight: 600;
+  color: #3D2F66;
+  flex-shrink: 0;
+}
+
+/* NAV LINKS (DESKTOP) */
+.nav-links {
+  display: flex;
+  gap: 12px;
+  flex: 1;
+  justify-content: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #6B5A99;
+
+  font-size: 13px;
+
+  padding: 8px 12px;
+  border-radius: 999px;
+
+  transition: 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #3D2F66;
+  background: rgba(205, 183, 255, 0.15);
+}
+
+/* CTA BUTTON */
+.cta-pill {
+  background: linear-gradient(135deg, #FFE37A, #FFD84D);
+  border: none;
+
+  padding: 8px 14px;
+  border-radius: 999px;
+
+  font-weight: 600;
+  color: #3D2F66;
+  text-decoration: none;
+  box-shadow: 0 10px 30px rgba(255, 227, 122, 0.35);
+
+  flex-shrink: 0;
+
+  transition: 0.3s ease;
+}
+
+.cta-pill:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 40px rgba(255, 227, 122, 0.5);
+}
+
+/* HAMBURGER */
+.hamburger {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+  color: #3D2F66;
+  z-index: 10000;
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+
+  .nav-links,
+  .cta-pill {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .navbar {
+    height: 58px;
+    padding: 0 14px;
+    border-radius: 18px;
+  }
+}
+
+/* ================= MOBILE SIDE DRAWER ================= */
+
+.mobile-menu {
+  position: fixed;
+
+  top: 0px;
+  right: 0px;
+  bottom: 14px;
+
+  width: 100px; /* 👈 أكبر شوي */
+  height: 200px;
+  background: rgba(242, 220, 255, 0.888);
+  backdrop-filter: blur(28px);
+
+  border: 1px solid rgba(205, 183, 255, 0.35);
+
+  border-radius: 15px; /* 👈 تدوير أكبر */
+
+  box-shadow: 0 25px 70px rgba(167, 139, 250, 0.25);
+
+  z-index: 9998;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 50px 35px; /* 👈 أكبر padding */
+
+  animation: slideIn 0.35s ease;
+}
+.mobile-menu a {
+  font-size: 18px;
+  color: #3D2F66;
+
+  text-decoration: none;
+
+  padding: 10px 14px;
+  border-radius: 12px;
+
+  transition: 0.3s ease;
+}
+
+.mobile-menu a:hover {
+  background: rgba(205, 183, 255, 0.15);
+  transform: translateX(5px);
+}
+
+/* DRAWER */
+.mobile-menu .drawer {
+  display: flex;
+  flex-direction: column;
+  z-index: 9999;
+  gap: 15px;
+}
+
+/* LINKS INSIDE DRAWER */
+.mobile-menu .drawer a {
+  font-size: 20px;
+  color: #3D2F66;
+  text-decoration: none;
+
+  transition: 0.3s ease;
+}
+
+.mobile-menu .drawer a:hover {
+  color: #6B5A99;
+  transform: translateX(1px);
+}
+
+/* ANIMATION */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
